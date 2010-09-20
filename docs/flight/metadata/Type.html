@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../override.css" type="text/css"><meta name="keywords" content="Type,flight.metadata.Type,describeInheritance,describeMethods,describeProperties,describeType,getPropertyType,getType,isType,registerType,register,resolveBindings,resolveCommitProperties,resolveDataListeners,resolveEventListeners,resolveLayoutProperties"><title>flight.metadata.Type</title></head><body><script language="javascript" type="text/javascript" src="../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../help.js"></script><script language="javascript" type="text/javascript" src="../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'Type - API Documentation';
+				var baseRef = '../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">API Documentation</td><td class="titleTableTopNav" align="right"><a href="../../package-summary.html" onclick="loadClassListFrame('../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../class-summary.html" onclick="loadClassListFrame('../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../all-index-A.html" onclick="loadClassListFrame('../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../index.html?flight/metadata/Type.html&amp;flight/metadata/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">Type</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#methodSummary">Methods</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Type"); titleBar_setSubNav(false,false,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">flight.metadata</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public  class  Type</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">Type  <img src="../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr></table><p></p><p></p><p></p>
+	 The static Type class contains a collection of type-specific utilities,
+	 including object reflection. Reflection is described in XML, which
+	 format is documented in the <code>flash.utils</code> package. XML
+	 descriptions are cached for performance.
+	 
+	 <p></p><p><span class="classHeaderTableLabel">See also</span></p><div class="seeAlso">flash.utils.describeType</div><br/><hr></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#describeInheritance()" class="signatureLink">describeInheritance</a>(value:Object):XMLList</div><div class="summaryTableDescription">[static] 
+		 Targeted reflection describing an object's inheritance, including
+		 extended classes and implemented interfaces.</div></td><td class="summaryTableOwnerCol">Type</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#describeMethods()" class="signatureLink">describeMethods</a>(value:Object, metadataType:String = null):XMLList</div><div class="summaryTableDescription">[static] 
+		 Targeted reflection describing an object's methods.</div></td><td class="summaryTableOwnerCol">Type</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#describeProperties()" class="signatureLink">describeProperties</a>(value:Object, metadataType:String = null):XMLList</div><div class="summaryTableDescription">[static] 
+		 Targeted reflection describing an object's properties, including both
+		 accessor's (getter/setters) and pure properties.</div></td><td class="summaryTableOwnerCol">Type</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#describeType()" class="signatureLink">describeType</a>(value:Object, refreshCache:Boolean = false):XML</div><div class="summaryTableDescription">[static] 
+		 Primary reflection method, producing an XML description of the object
+		 or class specified.</div></td><td class="summaryTableOwnerCol">Type</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#getPropertyType()" class="signatureLink">getPropertyType</a>(value:Object, property:String):Class</div><div class="summaryTableDescription">[static] 
+		 Determines the property type without accessing the property directly.</div></td><td class="summaryTableOwnerCol">Type</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#isType()" class="signatureLink">isType</a>(value:Object, type:Class):Boolean</div><div class="summaryTableDescription">[static] 
+		 Evaluates whether an object or class is derived from a specific
+		 data type, class or interface.</div></td><td class="summaryTableOwnerCol">Type</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#registerType()" class="signatureLink">registerType</a>(value:Object):Boolean</div><div class="summaryTableDescription">[static] 
+		 Ensures a class has a registered alias for object serialization and
+		 remoting.</div></td><td class="summaryTableOwnerCol">Type</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="describeInheritance()"></a><a name="describeInheritance(Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">describeInheritance</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public static function describeInheritance(value:Object):XMLList</code><p></p><p></p><p>
+		 Targeted reflection describing an object's inheritance, including
+		 extended classes and implemented interfaces.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		The object or class to introspect.
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>XMLList</code> &mdash; A list of XML inheritance descriptions.
+		 </td></tr></table></div><a name="describeMethods()"></a><a name="describeMethods(Object,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">describeMethods</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function describeMethods(value:Object, metadataType:String = null):XMLList</code><p></p><p></p><p>
+		 Targeted reflection describing an object's methods.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		The object or class to introspect.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">metadataType</span>:String</code> (default = <code>null</code>)<code></code> &mdash; Optional filter to return only those
+		 							method descritions containing the
+		 							specified metadata.
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>XMLList</code> &mdash; A list of XML method descriptions.
+		 </td></tr></table></div><a name="describeProperties()"></a><a name="describeProperties(Object,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">describeProperties</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function describeProperties(value:Object, metadataType:String = null):XMLList</code><p></p><p></p><p>
+		 Targeted reflection describing an object's properties, including both
+		 accessor's (getter/setters) and pure properties.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		The object or class to introspect.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">metadataType</span>:String</code> (default = <code>null</code>)<code></code> &mdash; Optional filter to return only those
+		 							property descritions containing the
+		 							specified metadata.
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>XMLList</code> &mdash; A list of XML property descriptions.
+		 </td></tr></table></div><a name="describeType()"></a><a name="describeType(Object,Boolean)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">describeType</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function describeType(value:Object, refreshCache:Boolean = false):XML</code><p></p><p></p><p>
+		 Primary reflection method, producing an XML description of the object
+		 or class specified. Results are cached internally for performance.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		The object or class to introspect.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">refreshCache</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; Forces a new description to be generated,
+		 							useful only when a class alias has changed.
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>XML</code> &mdash; An XML description, which format is
+		 							documented in the <code>flash.utils</code>
+		 							package.
+		 
+		 </td></tr></table><p><span class="label">See also</span></p><div class="seeAlso">flash.utils.describeType</div></div><a name="getPropertyType()"></a><a name="getPropertyType(Object,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">getPropertyType</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function getPropertyType(value:Object, property:String):Class</code><p></p><p></p><p>
+		 Determines the property type without accessing the property directly.
+		 Evaluation is based on the property definition and not by its value.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		An object or class containing the property
+		 							definition to evaluate.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">property</span>:String</code> &mdash; 	The name of the property to be evaluated
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Class</code> &mdash; The class definition of the property type,
+		 							as described by the property definition, or
+		 							null if no definition was found.
+		 </td></tr></table></div><a name="isType()"></a><a name="isType(Object,Class)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">isType</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function isType(value:Object, type:Class):Boolean</code><p></p><p></p><p>
+		 Evaluates whether an object or class is derived from a specific
+		 data type, class or interface. The isType() method is comparable to
+		 ActionScript's <code>is</code> operator except that it also makes
+		 class to class evaluations.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		The object or class to evaluate.
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">type</span>:Class</code> &mdash; 		The data type to check against.
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; True if the object or class is derived from
+		 							the data type.
+		 </td></tr></table></div><a name="registerType()"></a><a name="registerType(Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">registerType</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function registerType(value:Object):Boolean</code><p></p><p></p><p>
+		 Ensures a class has a registered alias for object serialization and
+		 remoting. If the class doesn't yet have an alias it will be
+		 registered with it's full qualified class name, for example:
+		 <code>flight.utils.Type</code>. If the class has already been
+		 assigned an alias then its previous registration will be honored.
+		 
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">value</span>:Object</code> &mdash; 		The object or class to register.
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>Boolean</code> &mdash; True if the registration was successful,
+		 							otherwise the object already has an alias.
+		 
+		 </td></tr></table><p><span class="label">See also</span></p><div class="seeAlso">flash.net.registerClassAlias</div></div><br/><br/><hr><br/><p></p><center class="copyright"><footer></footer><br/>Mon Sep 20 2010, 03:35 PM -04:00  </center></div></body></html><!--<br/>Mon Sep 20 2010, 03:35 PM -04:00  -->
