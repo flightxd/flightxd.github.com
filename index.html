@@ -1,28 +1,123 @@
----
-layout: default
-name: Home
-header: front
----
-<a href="http://github.com/flightxd"><img style="position: absolute; top: 0; left: 0; border: 0;"
-                                                               src="http://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"
-                                                               alt="Fork me on GitHub"/></a>
-<hr/>
-<div class="span-22 prepend-2 last">
-    <h1 class="section">What is FlightXD?</h1>
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Flight XD</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<style type="text/css">
+body {
+	margin: 0;
+	background: #999 url(images/body.png);
+	font: 14px 'Helvetica Neue', 'Segoe UI', Helvetica, sans-serif;
+	color: #ccc;
+}
+#page {
+	background: url(images/body-top.png) repeat-x top;
+}
+header {
+	display: block;
+	height: 300px;
+	background: url(images/header-top.png) no-repeat 50% 0;
+}
+header h1 {
+	margin: 0;
+	height: 300px;
+	background: url(images/xd-logo-large.png) no-repeat 50% 20px;
+	text-indent: -9000px;
+}
+content {
+	display: block;
+	width: 940px;
+	height: 300px;
+	margin: -20px auto 0;
+	background: url(images/product-box.png) no-repeat;
+}
+content div {
+	float: left;
+	width: 260px;
+	height: 260px;
+	padding: 20px;
+	margin-right: 20px;
+	background: url(images/product-divider.png) no-repeat 100% 50%;
+}
+content div p {
+	line-height: 2em;
+	text-shadow: 0 1px 2px rgba(0,0,0,.75);
+}
+content div p a.more-info {
+	display: block;
+	width: 100px;
+	margin: 20px auto 0;
+	text-align: center;
+	color: #ACF;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px 2px rgba(0,0,0,.45);
+	
+}
+content div p a:hover {
+	text-decoration: underline;
+}
+content div.fuselage {
+	background: none;
+	margin-right: 0;
+}
+content div h2 {
+	margin: 0 0 1.6em;
+}
+content div h2 a {
+	display: block;
+	text-indent: -900px;
+	overflow: hidden;
+	height: 35px;
+}
+content div.stealth h2 a {
+	background: url(images/product-stealth-logo.png) no-repeat left top;
+}
+content div.core h2 a {
+	background: url(images/product-core-logo.png) no-repeat left top;
+}
+content div.fuselage h2 a {
+	background: url(images/product-fuselage-logo.png) no-repeat left top;
+}
+content div h2 a:hover {
+	background-position: 0px -35px;
+}
+footer {
+	display: block;
+	margin-top: 40px;
+	padding-top: 40px;
+	background: url(images/horiz-divider.png) no-repeat 50% 0;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	text-shadow: 0 1px 2px rgba(0,0,0,.75);
+}
+</style>
+</head>
+<body>
+<div id="page">
+	<header>
+		<h1>Flight XD</h1>
+	</header>
+	<content>
+		<div class="core">
+			<h2><a href="http://github.com/flightxd/flight-framework">Flight Core - Flash Component Framework</a></h2>
+			<p>A library of utilities made to simplify development and increase both performance and developer productivity.</p>
+		</div>
+		<div class="stealth">
+			<h2><a href="stealth.html">Flight Stealth - Flash Component Framework</a></h2>
+			<p>A robust framework for building user interface components with a focus on minimal size and maximum extensibility.<a href="stealth.html" class="more-info">More info</a></p>
+		</div>
+		<div class="fuselage">
+			<h2><a href="http://github.com/flightxd/flight-framework">Flight Fuselage - Flash Component Framework</a></h2>
+			<p>A framework in which to build Flash applications. Simple and minimal.</p>
+		</div>
+	</content>
+	<footer>
+	Copyright &copy; 2010
+	</footer>
 </div>
-<div class="span-18 append-3 prepend-3 last">
-    <strong>Flight XD</strong> is a resource hosting some of the communities best project initiatives
-</div>
-<hr class="space">
-<hr/>
-<div class="span-21 prepend-3 last">
-    <strong>FlightXD</strong> resources:
-</div>
-<hr class="space">
-<div class="span-22 prepend-2 last">
-    <ul>
-        <li><a href="http://flightxd.com/flightframework/">FlightXD Blog</a></li>
-    </ul>
-</div>
-<hr/>
-
+</body>
+</html>
