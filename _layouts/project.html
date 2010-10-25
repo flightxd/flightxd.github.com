@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{{ page.title }} - Flight XD</title>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono&amp;subset=latin" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light&amp;subset=latin" />
+<link href="css/prettify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/prettify.js"></script>
+<link rel="stylesheet" href="/css/project.css" type="text/css" media="all">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript">
+window.PR_TAB_WIDTH = 4;
+$(function() {
+	var loc = location.href;
+	$('nav a').each(function() {
+		var href = this.href.replace('.html', '');
+		if (loc.indexOf(href) == 0) $(this).closest('li').addClass('selected');
+	});
+});
+</script>
+</head>
+<body onload="if (!window.editing) prettyPrint()">
+<div id="page">
+	<header>
+		<h3><a href="/">Flight XD</a></h3>
+		<h1>Flight Stealth</h1>
+	</header>
+	<div id="main">
+		<content>
+			<nav>
+				<ul data-edit="nav">
+					{% include page.nav %}
+				</ul>
+			</nav>
+			<div class="content-area" data-edit="page">
+				{{ content }}
+			</div>
+		</content>
+	</div>
+	<footer>
+	Copyright &copy; 2010
+	</footer>
+</div>
+</body>
+</html>
